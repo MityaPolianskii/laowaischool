@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<yml_catalog date="2025-04-20T20:29">
+  <shop>
+    <name>Лаовай</name>
+    <company>Лаовай</company>
+    <url>https://laowaischool.ru</url>
+    <email>laowaischool.ru@gmail.com</email>
+    <picture>https://static.tildacdn.com/tild3563-6666-4239-b630-316534306131/Logo.svg</picture>
+    <description>Онлайн-школа китайского языка</description>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="20000">Языки</category>
+      <category id="20006" parentId="20000">Китайский язык</category>
+    </categories>
+    <offers>
+      <offer id="1" available="true">
+        <url>https://laowaischool.ru</url>
+        <price>1500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>20000</categoryId>
+        <name>Уроки китайского языка - с нуля до HSK6</name>
+        <description>Индивидуальные занятия китайским языком онлайн с опытными преподавателями. Первый урок бесплатно! Удобный график, интерактивная платформа.</description>
+        <param name="Дополнительная категория">20006</param>
+        <param name="Продолжительность" unit="час">1</param>
+        <param name="Формат обучения">С преподавателем</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Есть тренажеры">true</param>
+        <param name="Есть сообщество">true</param>
+        <param name="Есть бесплатная часть">true</param>
+        <param name="Результат обучения">Сертификат</param>
+        <param name="План" unit="Основы фонетики и иероглифики" order="1">Основы фонетики и иероглифики</param>
+        <param name="План" unit="HSK1" order="2">HSK1</param>
+        <param name="План" unit="HSK2" order="3">HSK2</param>
+        <param name="План" unit="HSK3" order="4">HSK3</param>
+        <param name="План" unit="HSK4" order="5">HSK4</param>
+        <param name="План" unit="HSK5" order="6">HSK5</param>
+        <param name="План" unit="HSK6" order="7">HSK6</param>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
